@@ -6,6 +6,28 @@ This project aims to explore airline passenger satisfaction factors. It encompas
 
 To enhance our findings, the project includes the creation of a satisfaction model based on various factors. This phase involves data engineering to identify significant features, applying transformations, and developing three models based on logistic regression, Lasso regularization, and decision trees.
 
+I have added a Streamlit app container in the Dockerfile to predict client satisfaction due to multiple features. 
+
+## Project Workflow
+
+To enhance our findings, the project includes the creation of a satisfaction model based on various factors. This phase involves:
+
+- **Data Engineering**: Identifying significant features and applying necessary transformations.
+- **Model Development**: Developing three models based on:
+  - Logistic Regression
+  - Lasso Regularization
+  - Decision Trees
+  -Streamlit application
+  -Docker
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SouhailaELkadaoui/Airline-Passenger-Satisfaction.git
+
+## Run docker container
+docker run -p 8501:8501 client-satisfaction-prediction-app7
+
 ## Dataset: 
 The dataset was initially combined before being divided into training and testing sets. We later resplit it during the feature engineering phase to prepare it for modeling. In total, the dataset contains 2,848,714 rows and 23 columns.
 
