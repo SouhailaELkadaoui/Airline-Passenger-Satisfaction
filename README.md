@@ -28,6 +28,9 @@ To enhance our findings, the project includes the creation of a satisfaction mod
 ## Run docker container
 docker run -p 8501:8501 client-satisfaction-prediction-app7
 
+## run streamlit app
+localhost:8501
+
 ## Dataset: 
 The dataset was initially combined before being divided into training and testing sets. We later resplit it during the feature engineering phase to prepare it for modeling. In total, the dataset contains 2,848,714 rows and 23 columns.
 
