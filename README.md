@@ -16,8 +16,8 @@ To enhance our findings, the project includes the creation of a satisfaction mod
 - **Model Development**: Developing three models based on:
   - Logistic Regression
   - Lasso Regularization
-  - Decision Trees
-  -Streamlit application
+  - Decision Trees 
+  -Streamlit application 
   -Docker
 ## Getting Started
 
