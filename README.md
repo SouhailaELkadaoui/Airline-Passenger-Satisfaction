@@ -27,6 +27,7 @@ To enhance our findings, the project includes the creation of a satisfaction mod
 
 ## Run docker container
 docker run -p 8501:8501 client-satisfaction-prediction-app7
+on the browser,write  localhost:8501 (to make it work  locally)
 
 ## run streamlit app
 localhost:8501
